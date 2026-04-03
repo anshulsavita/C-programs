@@ -25,7 +25,7 @@ void main(){
     printf("Enter position:");
     scanf("%d",&po);
 
-    for(i=po;i<=9;i++){
+    for(i=po;i<=8;i++){
         x[i]=x[i+1];
     }
     for(i=0;i<=8;i++){
