@@ -18,7 +18,7 @@ void main(){
         printf("\n%d",x[1]); //97
     
         printf("\n%c",x[1]-32); //A
-        printf("\n%c",x[1]-1);  //b
+        printf("\n%c",x[1]+1);  //b
 
         // %s read a string from begin address to null pointer.
     printf("%s",x); //Ramayan
