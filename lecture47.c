@@ -52,18 +52,65 @@ void main(){
     // printf("%d",i);
 
     // Question--> count how many times "(a) or (A)" comes in a string.
-    char x[30],c=0,i;
-    printf("Enter string:");
-    gets(x);
-    for(i=0;x[i];i++){
-        if(x[i]=='a' || x[i]=='A'){
-            c++;
-        }
-    }
-    printf("%d",c);
+    // char x[30],c=0,i;
+    // printf("Enter string:");
+    // gets(x);
+    // for(i=0;x[i];i++){
+    //     if(x[i]=='a' || x[i]=='A'){
+    //         c++;
+    //     }
+    // }
+    // printf("%d",c);
 
     // Quiz--> write a c program to count how many upper case, lowercase, digits, spaces and special characters are present in a string.
+    // char x[30],i;
+    // int u=0,l=0,d=0,sps=0,s=0;
+    // printf("Enter String:");
+    // gets(x);
+    // for(i=0;x[i];i++){
+    //     if(x[i]>='A' && x[i]<='Z'){
+    //         u++;
+    //     }
+    //     else if(x[i]>='a' && x[i]<='z'){
+    //         l++;
+    //     }
+    //     else if(x[i]>=48 && x[i]<=57){
+    //         d++;
+    //     }
+    //     else if(x[i]==' '){
+    //         sps++;
+    //     }
+    //     else{
+    //         s++;
+    //     }
+    // }
+    // printf("\nUpper case characters: %d",u);
+    // printf("\nlower case characters: %d",l);
+    // printf("\nDigits: %d",d);
+    // printf("\nSpaces: %d",sps);
+    // printf("\nspecial characters: %d",s);
+
 
     // Quiz--> Write a c program to count how many vowels and cosonents present in a string.
+    char x[30];
+    int i,v=0,c=0;
+    printf("Enter a string:");
+    gets(x);
+    for(i=0;x[i];i++){
+        if((x[i]>='a' && x[i]<='z') || (x[i]>='A' && x[i]<='Z'))
+        {
+            if(x[i]=='A' || x[i]=='E' || x[i]=='I' || x[i]=='O' || x[i]=='U' || x[i]=='a' || x[i]=='e' || x[i]=='i' || x[i]=='o' || x[i]=='u')
+            {
+                v++;
+            }
+            else
+            {
+                c++;
+            }
+        }
+    }
+    printf("Vowels: %d",v);
+    printf("\nConsonents: %d",c);
+
     
 }
