@@ -75,37 +75,101 @@ void main(){
     // }
 
     // Question-->input two matrix and print multiplication of two matrix.
-    int x[3][3],y[3][3],z[3][3];
-    int i,j,s,k;
+    // int x[3][3],y[3][3],z[3][3];
+    // int i,j,s,k;
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=2;j++){
+    //         printf("Enter values of matrix one:");
+    //         scanf("%d",&x[i][j]);
+    //     }
+    // }
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=2;j++){
+    //         printf("Enter values of matrix second:");
+    //         scanf("%d",&y[i][j]);
+    //     }
+    // }
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=2;j++){
+    //         s=0;
+    //         for(k=0;k<=2;k++){
+    //             s=s+(x[i][k]*y[k][j]);
+    //         }
+    //         z[i][j]=s;
+    //     }
+    // }
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=2;j++){
+    //         printf(" %d",z[i][j]);
+    //     }
+    //     printf("\n");
+    // }
+
+    // ****Quiz-->input a 3*3 matrix and print all the right angle triangle seperately.
+    // **********(1.)*********
+    // int i,j,x[3][3];
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=2;j++){
+    //         printf("Enter values @ %d,%d: ",i,j);
+    //         scanf("%d",&x[i][j]);
+    //     }
+    // }
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=i;j++){
+    //         printf("%d ",x[i][j]);
+    //     }
+    //     printf("\n");
+    // }
+
+    // ************(2.)*********
+    // int i,j,x[3][3];
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=2;j++){
+    //         printf("Enter values @ %d,%d: ",i,j);
+    //         scanf("%d",&x[i][j]);
+    //     }
+    // }
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=i;j++){
+    //         printf("  ");
+    //     }
+    //     for(j=i;j<=2;j++){
+    //         printf("%d ",x[i][j]);
+    //     }
+    //     printf("\n");
+    // }
+
+    // ***********(3.)*********
+    // int i,j,x[3][3];
+    // for(i=0;i<=2;i++){
+    //     for(j=0;j<=2;j++){
+    //         printf("Enter values @ %d,%d: ",i,j);
+    //         scanf("%d",&x[i][j]);
+    //     }
+    // }
+    // for(i=2;i>=0;i--){
+    //     for(j=0;j<=i;j++){
+    //         printf("  ");
+    //     }
+    //     for(j=i;j<=2;j++){
+    //         printf("%d ",x[i][j]);
+    //     }
+    //     printf("\n");
+    // }
+
+    // ***********(4.)*********
+    int i,j,x[3][3];
     for(i=0;i<=2;i++){
         for(j=0;j<=2;j++){
-            printf("Enter values of matrix one:");
+            printf("Enter values @ %d,%d: ",i,j);
             scanf("%d",&x[i][j]);
         }
     }
-    for(i=0;i<=2;i++){
-        for(j=0;j<=2;j++){
-            printf("Enter values of matrix second:");
-            scanf("%d",&y[i][j]);
-        }
-    }
-    for(i=0;i<=2;i++){
-        for(j=0;j<=2;j++){
-            s=0;
-            for(k=0;k<=2;k++){
-                s=s+(x[i][k]*y[k][j]);
-            }
-            z[i][j]=s;
-        }
-    }
-    for(i=0;i<=2;i++){
-        for(j=0;j<=2;j++){
-            printf(" %d",z[i][j]);
+    for(i=2;i>=0;i--){
+        for(j=0;j<=i;j++){
+            printf("%d ",x[i][j]);
         }
         printf("\n");
     }
 
-    // Quiz-->input a 3*3 matrix and print all the right angle triangle seperately.
-
-    
 }
