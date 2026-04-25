@@ -56,13 +56,4 @@ void main(){
     printf("%c\n",*a+1);//H
     printf("%c\n",*(a+1));//w
     printf("%s\n",a+2);//alior
-
-
-
-
-
-
-    
-
-
 }
