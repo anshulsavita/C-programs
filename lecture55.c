@@ -108,7 +108,7 @@ void main(){
     //     scanf("%d",x+i);
     // }
     // for(i=0;i<n;i++){
-    //     printf("Enter number X @ %d:",i);
+    //     printf("Enter number Y @ %d:",i);
     //     scanf("%d",y+i);
     // }
     // for(i=0;i<n;i++){
@@ -120,5 +120,39 @@ void main(){
     // free(z);
 
     // ***Quiz-->input *x for n values, input *y for m values and merge them as *z.
-     
+    // int *x,*y,*z,n,m,i,c=0;
+    // printf("Enter number you want to input: ");
+    // scanf("%d",&n);
+    // printf("Enter number you want to input: ");
+    // scanf("%d",&m);
+
+    // x=(int*)malloc(n*sizeof(int));
+    // y=(int*)malloc(m*sizeof(int));
+    // z=(int*)malloc((n*m)*sizeof(int));
+
+
+    // for(i=0;i<n;i++){
+    //     printf("Enter number X @ %d:",i);
+    //     scanf("%d",x+i);
+    // }
+    // for(i=0;i<m;i++){
+    //     printf("Enter number Y @ %d:",i);
+    //     scanf("%d",y+i);
+    // }
+    // for(i=0;i<n;i++){
+    //     z[i]=x[i];
+        
+    // }
+    // for(i=0;i<m;i++){
+    //     z[i+n]=y[i];
+    // }
+    // c=n+m;
+    // for(i=0;i<c;i++){
+    //     printf("%d,",z[i]);
+    // }
+    // free(x);
+    // free(y);
+    // free(z);
+
+    // Quiz-->
 }
