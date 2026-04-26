@@ -154,5 +154,113 @@ void main(){
     // free(y);
     // free(z);
 
-    // Quiz-->
+    // Quiz-->find maximum and minimum element using pointers.
+    // int *x,n,i,max,min;
+    // printf("Enter value: ");
+    // scanf("%d",&n);
+    // x=(int*)malloc(n*sizeof(int));
+    // for(i=0;i<n;i++){
+    //     printf("Enter value at %d: ",i);
+    //     scanf("%d",x+i);
+    // }
+    // max=x[0];
+    // min=x[0];
+    // for(i=1;i<n;i++){
+    //     if(x[i]>max){
+    //         max=x[i];
+    //     }
+    //     if(x[i]<min){
+    //         min=x[i];
+    //     }
+    // }
+    // printf("Maximum value: %d\nMinimum value: %d",max,min);
+    // free(x);
+
+    // Quiz-->find second largest element using pointers.
+    // int *x,n,i,t;
+    // printf("Enter value u want to input: ");
+    // scanf("%d",&n);
+    // x=(int*)malloc(n*sizeof(int));
+    // for(i=0;i<n;i++){
+    //     printf("Enter value: ");
+    //     scanf("%d",x+i);
+    // }
+    // for(i=0;i<n;i++){
+    //     if(x[i]>x[i+1]){
+    //         t=x[i];
+    //         x[i]=x[i+1];
+    //         x[i+1]=t;
+    //     }
+    // }
+    // printf("%d",x[i-2]);
+    // free(x);
+
+    // Quiz--> insert an element using pointers.
+    // int *x,n,i,n1,p;
+    // printf("Enter value: ");
+    // scanf("%d",&n);
+    // x=(int*)malloc(n*sizeof(int));
+    // for(i=0;i<n-1;i++){
+    //     printf("Enter values at %d: ",i);
+    //     scanf("%d",x+i);
+    // }
+    // printf("Enter number u want to inset: ");
+    // scanf("%d",&n1);
+    // printf("Enter place you where u want to insert: ");
+    // scanf("%d",&p);
+    // for(i=n-2;i>=p;i--){
+    //     x[i+1]=x[i];
+    // }
+    // x[p]=n1;
+    // for(i=0;i<n;i++){
+    //     printf("%d,",x[i]);
+    // }
+    // free(x);
+
+    // Quiz-->sort elements in ascending using pointers.
+    // int *x,n,j,i,t;   
+    // printf("Enter number: ");
+    // scanf("%d",&n);
+    // x=(int*)malloc(n*sizeof(int));
+    // for(i=0;i<n;i++){
+    //     printf("Enter value at %d: ",i);
+    //     scanf("%d",x+i);
+    // }
+    // for(i=0;i<n;i++){
+    //     for(j=0;j<n;j++){
+    //         if(x[j]>x[j+1]){
+    //             t=x[j];
+    //             x[j]=x[j+1];
+    //             x[j+1]=t;
+    //         }
+    //     }
+        
+    // }
+    // for(i=0;i<n;i++){
+    //     printf("%d,",x[i]);
+    // }
+    // free(x);
+
+    // Quiz-->sort elements in descending order using pointers.
+    // int *x,n,j,i,t;   
+    // printf("Enter number: ");
+    // scanf("%d",&n);
+    // x=(int*)malloc(n*sizeof(int));
+    // for(i=0;i<n;i++){
+    //     printf("Enter value at %d: ",i);
+    //     scanf("%d",x+i);
+    // }
+    // for(i=0;i<n;i++){
+    //     for(j=0;j<n-1;j++){
+    //         if(x[j]<x[j+1]){
+    //             t=x[j];
+    //             x[j]=x[j+1];
+    //             x[j+1]=t;
+    //         }
+    //     }
+    // }
+    // for(i=0;i<n;i++){
+    //     printf("%d,",x[i]);
+    // }
+    // free(x);
 }
