@@ -162,6 +162,22 @@ int isarmstrong(int n){
 }
 
 // quiz-->k=isprime(7).
+int isprime(int n){
+    int i=2,c=0;
+    while(i<n){
+        if(n%i==0){
+            c++;
+            break;
+        }
+        i++;
+    }
+    if(c==0){
+        return 1;
+    }
+    else{
+        return 0;
+    }
+}
 
 void main(){
     int r,n,c,s,k;
@@ -181,6 +197,6 @@ void main(){
     printf("is perfect: %d\n",k);
     k=isarmstrong(153);
     printf("is armstrong: %d\n",k);
-    k=isprime(20);
+    k=isprime(11);
     printf("is prime: %d\n",k);
 }
