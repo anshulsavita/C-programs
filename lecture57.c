@@ -197,6 +197,6 @@ void main(){
     printf("is perfect: %d\n",k);
     k=isarmstrong(153);
     printf("is armstrong: %d\n",k);
-    k=isprime(11);
+    k=isprime(7);
     printf("is prime: %d\n",k);
 }
