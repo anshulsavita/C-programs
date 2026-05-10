@@ -4,7 +4,7 @@ void main(){
     //  - use to store an adress of pointer 
 
     // int a=90,*p,**k;
-    // suppose balue  of a is 90 and base address is 100, and base address of p is 722 and p points to a means base address of a is stored in p.
+    // suppose value of a is 90 and base address is 100, and base address of p is 722 and p points to a (means base address of a is stored in p).
     // base address of k is 822, and k points to k as followes.  
 
     // p=&a;
@@ -12,7 +12,7 @@ void main(){
     // printf("%u\n",a);//90
     // printf("%u\n",&a);//100
     // // printf("%u\n",*a)//error.
-    // printf("%u\n",*(&a));//100
+    // printf("%u\n",*(&a));//90
     // // printf("%u\n",**(&a));//error
     // printf("%u\n",p);//100
     // printf("%u\n",&p);//722

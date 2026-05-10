@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<math.h>
-    /* c=pow(2,3)-->
+    /* ****user defined functions***
+    c=pow(2,3)-->
     c==return type.
     pow == function name.
     (2,3)== arguments 

@@ -9,7 +9,7 @@ void main(){
     -represents some memory block.
     -its size is 64 bit (8 bytes).
     -positive in nature.
-    - & is used read an address of memory block.
+    - & is used to read an address of memory block.
     - Address+1 means proceed to next address.
     - adress are not integer value, these are HEXA code.
 

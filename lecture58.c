@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 
-int reverse(int n){
+int reverse(int n){ // called function (formal args)
     int r,s=0;
     while(n){
         r=n%10;

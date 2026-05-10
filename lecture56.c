@@ -9,7 +9,7 @@ void main(){
     // one call function anytime anywhere in a program multiple times thus it provides reusability of code
 
     // there are two types of functions.
-    //  - buit in function.
+    //  - built in function.
     //  - user defined function.
 
     // ****built in functions --> header file --> <math.h>
