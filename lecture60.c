@@ -17,10 +17,10 @@
     // putArray(x,10);
     
 // *****quiz-->del(x,10,5)
-    // int x[5];
-    // getArray(x,5);
-    // del(x,5,3);
-    // putArray(x,4);
+    // int x[10];
+    // getArray(x,10);
+    // del(x,10,3);
+    // putArray(x,9);
 
 // *****quiz-->merge(x,10,y,5,z)
     // int x[5],y[5],z[10];

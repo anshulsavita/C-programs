@@ -34,13 +34,13 @@ void insert(int *x,int n,int no, int pos){
     }
     x[pos]=no;
 }
-void del(int *x,int n,int pos){
+void del(int *x,int n,int pos){  // n is for size
     int i,j;
     for(i=pos;i<n;i++){
         x[i]=x[i+1];
     }
 }
-void merge(int *x,int n1, int *y,int n2, int *z){
+void merge(int *x,int n1, int *y,int n2, int *z){  // n1 and n2 is for size
     int i,j;
     for(i=0;i<n1;i++){
         z[i]=x[i];
