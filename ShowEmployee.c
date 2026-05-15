@@ -10,7 +10,7 @@ void main(){
     EMP E;
     FILE *p;
     float da,hra,ns;
-    p=fopen("employee.db","rb"); // "r"--> text mode, "rb"--> binary mode
+    p=fopen("employee.db","r"); // "r"--> text mode, "rb"--> binary mode
     if(p==NULL){
         printf("File not found....");
     }

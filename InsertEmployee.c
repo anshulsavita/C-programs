@@ -31,5 +31,6 @@ void main(){
         fflush(stdin);
         scanf("%c",&ch);
     }while(ch=='y' || ch=='Y');
+    fclose(p);
 
 }
