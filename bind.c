@@ -9,7 +9,9 @@ void main(){
     printf("1] Add New Employee\n");
     printf("2] Show All Employee\n");
     printf("3] Search Employee\n");
-    printf("4] Exit\n");
+    printf("4] Edit Employee\n");
+    printf("5] Delete Employee\n");
+    printf("6] Exit\n");
     printf("Enter choice: ");
     fflush(stdin);
     scanf("%d",&ch);
@@ -25,6 +27,12 @@ void main(){
             system("searchemployee.exe");
             break;
         case 4:
+            system("EditEmployee.exe");
+            break;
+        case 5:
+            system("deleteemployee.exe");
+            break;
+        case 6:
             printf("Good Bye...");
             break;
         default:
